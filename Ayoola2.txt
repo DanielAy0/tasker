@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Life Of Solitude</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navigationbar">
+        <div class="container">
+            <a class="icon" href="#">Task<span>er</span></a>
+
+            <img id="mobile-cta" class="mobile-menu" src="./image/burger.svg" alt="Open navigation">
+           
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="./image/exit.png"alt="">
+               
+                <ul class="primary-navigation">
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#">Albums</a></li>
+                    <li><a href="#">People</a></li>
+                </ul>
+                
+                <ul class="secondary-navigation">
+                    <li><a href="#">Subscribe</a></li>
+                    <li class="Pricing-cta"><a href="#">pricing</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="container">
+           <div class="left-col">
+            <p class="subhead"> It's Nitty &amp; Gritty</p>
+            <h1>A Tasker That Doesn't Stink</h1>
+            
+             <div class="hero-cta">
+                <a href="#" class="primary-cta">Try for free</a>
+                <a href="#" class="watch-video-cta">
+                    <img src="./image/watch.png" alt="Wacth a video">watch a video
+                </a>
+             </div>
+           </div>
+        </div>
+
+
+    </section>
+
+    <section class="featured-section">
+        <div class="container">
+            <ul class="featured-list">
+                <li>Unlimited Tasks</li>
+                <li>SMS Task Reminders</li>
+                <li>Rewards Upon Task Completions</li>
+                <li>Social Media Announcments</li>
+                <li>Real Time Collaboration</li>
+                <li>Other Awesome features</li>
+            </ul>
+
+            <img src="./image/dqniel.jpg" alt="Dqniel Ayoola">
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="./image/zeeyah.jpg" alt="Chicken Burger">
+
+                    <blockquote>"lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"</blockquote>
+                    <cite>- Jane Doe</cite>
+                </li>
+                <li>
+                    <img src="./image/zeeyah.jpg" alt="someone pretty">
+
+                    <blockquote>"lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"</blockquote>
+                    <cite>- Jane Doe</cite>
+                </li>
+                <li>
+                    <img src="/image/zeeyah.jpg" alt="The average lady">
+
+                    <blockquote>"lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"</blockquote>
+                    <cite>- Jane Doe</cite>
+                </li>
+            </ul>
+        </div>
+    </section>
+ 
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-left">
+               <h2>contact</h2>
+               
+               <form action="">
+                   <label for="name">name</label>
+                   <input type="text" id="name" name="name">
+                
+                   <label for="email">Email</label>
+                   <input type="email" id="email" name="email" placeholder="Eg:smartspice63@gmail.com">
+                
+                   <label for="message">Message</label>
+                   <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                   
+                   <input type="submit" class="send-message-cta" value="send message">
+                </form>
+            </div>
+            <div class="contact-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3938.9618229106727!2d7.331963100000001!3d9.15791669999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104dd8deedc42483%3A0x1b0d4be523e07f9a!2sTugo%20Rd%2C%20901101%2C%20Kubwa!5e0!3m2!1sen!2sng!4v1660144626657!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+
+    </section>
+</body>
+</html>
