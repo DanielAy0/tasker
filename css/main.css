@@ -81,8 +81,6 @@ section {
 }
 .left-col .watch-text {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .featured-section {
